@@ -1,0 +1,56 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Duy: Chào cả team, mình bắt đầu họp sprint review nhé. Tuần này mình muốn nghe cập nhật từ mọi người và lên kế hoạch cho sprint mới.
+
+00:00:05.500 --> 00:00:12.000
+Tuấn: Mình đã hoàn thành xong phần backend cho chức năng reset mật khẩu. Hiện tại API đã test ổn trên staging. Lâm có thể giúp mình viết unit test cho flow này không?
+
+00:00:12.500 --> 00:00:14.500
+Duy: Ok, Lâm sẽ hỗ trợ. Bên frontend sao rồi?
+
+00:00:15.000 --> 00:00:21.000
+Hoa: Giao diện trang "Quản lý nhóm người dùng" đã hoàn thành khoảng 80%. Mình đang chờ Nam cập nhật lại danh sách role từ backend để binding chính xác.
+
+00:00:21.500 --> 00:00:23.000
+Duy: Nam đã push chưa?
+
+00:00:23.500 --> 00:00:29.000
+Nam: Mình đã push rồi, nhưng còn thiếu phần lọc theo loại tài khoản. Mình sẽ bổ sung trước 3 giờ chiều nay.
+
+00:00:29.500 --> 00:00:34.000
+Duy: Rồi. Mình thấy tuần này CI/CD bị lỗi deploy production đúng không?
+
+00:00:34.500 --> 00:00:39.500
+Lâm: Đúng rồi. Do thiếu `ENV_SECRET` khi chạy GitHub Actions. Mình đã thêm vào secrets config rồi. Bây giờ flow chạy ổn định lại rồi.
+
+00:00:40.000 --> 00:00:47.000
+Duy: Tốt. Về sprint mới, nhóm mình cần hoàn thiện phần phân quyền chi tiết cho từng loại tài khoản. Hoa sẽ phụ trách UI. Tuấn xử lý phần logic phân quyền trong API. Nam kiểm tra và cập nhật lại tài liệu Postman.
+
+00:00:47.500 --> 00:00:52.000
+Duy: Ok, Hoa cần gì thì ping Lâm, Lâm đã xử lý phần tương tự ở module "Nhóm người dùng" rồi.
+
+00:00:52.500 --> 00:00:55.000
+Hoa: Cảm ơn anh. Vậy Tuấn confirm giúp em luồng phân quyền có giống flow hiện tại không nha?
+
+00:00:55.500 --> 00:01:00.000
+Tuấn: Ừ, chiều mình họp riêng 30 phút để chốt flow cũng được.
+
+00:01:00.500 --> 00:01:10.000
+Duy: Great. Tổng kết nè:
+- Tuấn refactor API phân quyền, hoàn thành trước thứ Sáu.
+- Hoa hoàn tất UI và binding role, due thứ Năm.
+- Nam cập nhật tài liệu Postman + fix API lọc loại tài khoản, due thứ Tư.
+- Lâm hỗ trợ unit test reset mật khẩu và review CI/CD.
+
+00:01:10.500 --> 00:01:14.000
+Duy: Mình sẽ tạo task trên Jira hết chiều nay nhé. Mọi người nhớ update status trước 9h sáng hàng ngày.
+
+00:01:14.500 --> 00:01:15.500
+Tuấn: Rõ rồi.
+
+00:01:15.700 --> 00:01:16.700
+Hoa: Dạ ok.
+
+00:01:17.000 --> 00:01:18.500
+Lâm: Tất cả ổn. Cảm ơn anh.
