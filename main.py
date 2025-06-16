@@ -4,7 +4,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-from prompts import SYSTEM_INSTRUCTION, SCRIPT1, SCRIPT2
+from prompts import SYSTEM_INSTRUCTION
 
 # Load environment variables
 load_dotenv()
