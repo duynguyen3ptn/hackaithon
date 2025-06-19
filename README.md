@@ -10,6 +10,7 @@
 <div align="center">
   <img src="docs/images/main-interface.png" alt="Main Interface" width="600"/>
 </div>
+
 - Navigate to the ClearMeet AI application.  
 - A simple interface with a file upload option will be displayed.
 
@@ -19,6 +20,7 @@
 <div align="center">
   <img src="docs/images/file-upload.png" alt="File Upload" width="600"/>
 </div>
+
 - Click the **"Choose File"** button.  
 - Select your meeting transcript file (`.vtt` format only).  
 - Only `.vtt` files from meeting recordings are supported.
@@ -36,10 +38,11 @@
 <div align="center">
   <img src="docs/images/processing.png" alt="Processing" width="600"/>
 </div>
+
 - Once processing is complete, you will see:  
   - A comprehensive meeting summary  
-  - A **"Download checklist"** button in the top right corner  
-- Click the **Download** button to export your CSV file containing the action items.
+  - A **"Download Checklist"** button in the top right corner  
+- Click the **"Download Checklist"** button to export your CSV file containing the action items.
 
 ---
 
